@@ -1,7 +1,7 @@
 const html = document.querySelector("html")
 const checkbox = document.querySelector("input[name=theme]")
 
-const getStyle = (element, style) => 
+const getStyle = (element, style) =>  
     window
         .getComputedStyle(element)
         .getPropertyValue(style)
